@@ -1,0 +1,38 @@
+# Dependências do Composer
+/vendor/
+
+/composer.lock
+
+# Arquivos de ambiente
+.env
+.env.*.local
+
+# Arquivos de debug e logs
+*.log
+*.cache
+*.debug
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações do IDE
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.vscode/
+
+# Arquivos de cache e temporários
+/cache/
+/tmp/
+/node_modules/
+
+# Arquivos de build
+/build/
+/dist/
+
+# Cache do PHPUnit
+.phpunit.result.cache
+
+# Arquivos de configuração do PHPStorm
+/.phpstorm.meta.php
